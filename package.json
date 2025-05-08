@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "description": "Monorepo for Janfig.",
+  "private": "true",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "typescript": "^5.8.3"
+  },
+  "license": "MIT",
+  "workspaces": ["packages/*"]
+}

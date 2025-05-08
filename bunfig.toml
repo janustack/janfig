@@ -1,0 +1,2 @@
+[install.scopes]
+janfig = { token = "", url = "https://registry.npmjs.org/" }
