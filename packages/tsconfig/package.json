@@ -1,0 +1,31 @@
+{
+	"name": "@janfig/tsconfig",
+	"author": "Andrew Christian Young",
+	"version": "0.0.0",
+	"exports": {
+		".": {
+			"import": "./base.json"
+		},
+		"./base": {
+			"import": "./base.json"
+		},
+		"./react": {
+			"import": "./react.json"
+		},
+		"./solid": {
+			"import": "./solid.json"
+		}
+	},
+	"files": ["base.json", "react.json", "solid.json"],
+	"homepage": "https://github.com/andrewcwhy/janfig#readme",
+	"keywords": ["janfig", "react", "solid", "tsconfig", "typescript"],
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andrewcwhy/janfig.git",
+		"directory": "packages/janfig"
+	}
+}
