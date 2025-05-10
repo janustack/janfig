@@ -1,0 +1,25 @@
+{
+	"name": "typedoc",
+	"version": "0.0.0",
+	"description": "",
+	"keywords": ["typedoc", "typescript"],
+	"license": "MIT",
+	"author": "Andrew Christian Young",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		}
+	},
+	"scripts": {
+		"build": "tsdown"
+	},
+	"dependencies": {
+		"typedoc": "^0.28.4",
+		"typedoc-plugin-markdown": "^4.6.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
