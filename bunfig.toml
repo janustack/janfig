@@ -1,2 +1,8 @@
 [install.scopes]
 janfig = { token = "", url = "https://registry.npmjs.org/" }
+
+[run]
+# equivalent to `bun --bun` for all `bun run` commands
+bun = true
+# default on Windows
+shell = "bun"
