@@ -1,0 +1,15 @@
+{
+	"name": "@janfig/biome",
+	"description": "",
+	"author": "Andrew Christian Young (https://andrewcwhy.me/)",
+	"version": "0.0.0",
+	"type": "module",
+    "homepage": "https://github.com/janustack/janfig/#readme",
+	"keywords": ["biome", "config", "janfig", "typescript"],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/janustack/janfig.git",
+		"directory": "packages/biome"
+	}
+}

@@ -1,8 +1,13 @@
 {
-	"extends": "../../tsconfig.json",
+	"extends": "@janfig/tsconfig/base",
+	"display": "Solid Library",
 	"compilerOptions": {
-		"lib": ["DOM", "DOM.Iterable", "ESNext"],
-        "jsx": "preserve",
-        "jsxImportSource": "solid-js"
+		"lib": [
+			"DOM",
+			"DOM.Iterable",
+			"ESNext"
+		],
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js"
 	}
 }

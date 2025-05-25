@@ -1,10 +1,8 @@
 {
-	"name": "typedoc",
-	"version": "0.0.0",
+	"name": "@janfig/typedoc",
 	"description": "",
-	"keywords": ["typedoc", "typescript"],
-	"license": "MIT",
 	"author": "Andrew Christian Young",
+	"version": "0.0.0",
 	"type": "module",
 	"exports": {
 		".": {
@@ -12,14 +10,26 @@
 			"types": "./dist/index.d.ts"
 		}
 	},
-	"scripts": {
-		"build": "tsdown"
-	},
 	"dependencies": {
 		"typedoc": "^0.28.4",
 		"typedoc-plugin-markdown": "^4.6.3"
 	},
+	"devDependencies": {
+		"tsdown": "catalog:build"
+	},
 	"publishConfig": {
 		"access": "public"
-	}
+	},
+	"homepage": "https://github.com/janustack/janfig/#readme",
+	"keywords": [
+		"janfig",
+		"typedoc",
+		"typescript"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/janustack/typedoc.git",
+		"directory": "packages/typedoc"
+	},
 }

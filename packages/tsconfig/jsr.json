@@ -1,0 +1,11 @@
+{
+    "name": "@janfig/tsconfig",
+    "version": "0.1.0",
+    "exports": {
+        ".": "./base.json",
+        "./base": "./base.json",
+        "./next": "./next.json",
+        "./react": "./react.json",
+        "./solid": "./solid.json"
+    }
+}

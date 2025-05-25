@@ -1,19 +1,30 @@
 {
-  "name": "janfig",
-  "description": "Monorepo for Janfig.",
-	"author": "Andrew Christian Young",
-  "private": "true",
+	"name": "janfig",
+	"description": "Monorepo for Janfig.",
+	"author": "Andrew Christian Young (https://andrewcwhy.me/)",
+	"private": "true",
 	"scripts": {
 		"check": "biome check --write .",
 		"format": "biome format --write .",
 		"lint": "biome lint --write ."
 	},
-  "devDependencies": {
+	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
-		"@moonrepo/cli": "^1.35.7",
+		"@moonrepo/cli": "^1.36.0",
 		"@types/bun": "^1.2.13",
 		"typescript": "^5.8.3"
-  },
-	"trustedDependencies": ["@moonrepo/cli"],
-	"workspaces": ["packages/*"]
+	},
+	"trustedDependencies": [
+		"@moonrepo/cli"
+	],
+	"workspaces": {
+		"packages": [
+			"packages/*"
+		],
+		"catalogs": {
+			"build": {
+				"tsdown": "^0.12.3"
+			}
+		}
+	}
 }
