@@ -1,3 +1,5 @@
 {
-    "exte"
+	"compilerOptions": {
+		"types": ["bun"]
+	}
 }

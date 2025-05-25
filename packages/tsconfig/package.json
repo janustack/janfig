@@ -22,7 +22,15 @@
 	},
 	"files": ["base.json", "next.json", "react.json", "solid.json"],
 	"homepage": "https://github.com/janustack/janfig#readme",
-	"keywords": ["esm", "janfig", "next", "react", "solid", "tsconfig", "typescript"],
+	"keywords": [
+		"esm",
+		"janfig",
+		"next",
+		"react",
+		"solid",
+		"tsconfig",
+		"typescript"
+	],
 	"license": "MIT",
 	"repository": {
 		"type": "git",

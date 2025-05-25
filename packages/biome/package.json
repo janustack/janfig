@@ -1,12 +1,18 @@
 {
 	"name": "@janfig/biome",
-	"description": "",
+	"description": "Shared Biome configuration for Janustack projects.",
 	"author": "Andrew Christian Young (https://andrewcwhy.me/)",
-	"version": "0.0.0",
-	"type": "module",
-    "homepage": "https://github.com/janustack/janfig/#readme",
-	"keywords": ["biome", "config", "janfig", "typescript"],
+	"version": "0.1.0",
+	"exports": {
+		".": "./biome.json"
+	},
+	"files": ["biome.json"],
+	"homepage": "https://github.com/janustack/janfig/#readme",
+	"keywords": ["biome", "config", "janfig", "janustack", "json"],
 	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/janustack/janfig.git",

@@ -21,15 +21,11 @@
 		"access": "public"
 	},
 	"homepage": "https://github.com/janustack/janfig/#readme",
-	"keywords": [
-		"janfig",
-		"typedoc",
-		"typescript"
-	],
+	"keywords": ["janfig", "typedoc", "typescript"],
 	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/janustack/typedoc.git",
 		"directory": "packages/typedoc"
-	},
+	}
 }
