@@ -1,24 +1,14 @@
 {
 	"name": "@janfig/tsconfig",
 	"author": "Andrew Christian Young (https://andrewcwhy.me/)",
-	"description": "Shared TypeScript configurations for modern ESM-based projects using Next.js, React, Solid, or base settings.",
-	"version": "0.1.0",
+	"description": "Shared TypeScript configurations for modern ESM-based projects.",
+	"version": "0.1.1",
 	"exports": {
-		".": {
-			"import": "./base.json"
-		},
-		"./base": {
-			"import": "./base.json"
-		},
-		"./next": {
-			"import": "./next.json"
-		},
-		"./react": {
-			"import": "./react.json"
-		},
-		"./solid": {
-			"import": "./solid.json"
-		}
+		".": "./base.json",
+		"./base": "./base.json",
+		"./next": "./next.json",
+		"./react": "./react.json",
+		"./solid": "./solid.json"
 	},
 	"files": ["base.json", "next.json", "react.json", "solid.json"],
 	"homepage": "https://github.com/janustack/janfig#readme",
@@ -32,6 +22,9 @@
 		"typescript"
 	],
 	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/janustack/janfig.git",

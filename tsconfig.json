@@ -3,10 +3,10 @@
 	"files": [],
 	"references": [
 		{
-			"path": "packages/tsconfig"
+			"path": "packages/biome"
 		},
 		{
-			"path": "packages/typedoc"
+			"path": "packages/tsconfig"
 		}
 	]
 }

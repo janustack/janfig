@@ -1,5 +1,6 @@
 {
-	"extends": "@janfig/tsconfig/base",
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "./base.json",
 	"display": "React Library",
 	"compilerOptions": {
 		"lib": ["DOM", "DOM.Iterable", "ESNext"],

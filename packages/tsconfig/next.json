@@ -1,9 +1,9 @@
 {
-	"extends": "@janfig/tsconfig/base",
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "./base",
 	"display": "Next.js Framework",
 	"compilerOptions": {
 		"lib": ["DOM", "DOM.Iterable", "ESNext"],
-		"resolveJsonModule": true,
 		"jsx": "preserve",
 		"incremental": true,
 		"plugins": [
