@@ -11,17 +11,13 @@
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
 		"@janfig/biome": "workspace:*",
+		"@janfig/tsconfig": "workspace:*",
 		"@moonrepo/cli": "^1.37.1",
-		"@types/bun": "^1.2.15",
+		"@types/bun": "^1.2.16",
 		"typescript": "^5.8.3"
 	},
 	"trustedDependencies": ["@moonrepo/cli"],
 	"workspaces": {
-		"packages": ["packages/*"],
-		"catalogs": {
-			"build": {
-				"tsdown": "^0.12.3"
-			}
-		}
+		"packages": ["packages/*"]
 	}
 }
