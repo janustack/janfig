@@ -9,10 +9,10 @@
 		"lint": "biome lint --write ."
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.9.4",
+		"@biomejs/biome": "^2.0.0",
 		"@janfig/biome": "workspace:*",
 		"@janfig/tsconfig": "workspace:*",
-		"@moonrepo/cli": "^1.37.1",
+		"@moonrepo/cli": "^1.37.2",
 		"@types/bun": "^1.2.16",
 		"typescript": "^5.8.3"
 	},
