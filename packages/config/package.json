@@ -1,0 +1,14 @@
+{
+    "name": "@janfig/config",
+    "author": "Andrew Christian Young (https://andrewcwhy.me/)",
+    "description": "",
+    "version": "0.0.0",
+    "files": [],
+    "homepage": "https://github.com/janustack/janfig#readme",
+    "keywords": [],
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": "https://github.com/janustack/packages/vite"
+}

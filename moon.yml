@@ -1,5 +1,0 @@
-language: typescript
-type: configuration
-
-toolchain:
-  default: bun

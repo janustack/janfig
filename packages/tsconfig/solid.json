@@ -2,8 +2,8 @@
 	"extends": "./base.json",
 	"display": "Solid Library",
 	"compilerOptions": {
-		"lib": ["DOM", "ESNext"],
-		"jsx": "preserve",
+	  "lib": ["DOM", "DOM.Iterable", "ESNext"],
+	  "jsx": "preserve",
 		"jsxImportSource": "solid-js"
 	}
 }
