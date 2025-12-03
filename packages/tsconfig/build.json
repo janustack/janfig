@@ -1,0 +1,13 @@
+{
+    "display": "Typescript Library",
+    "compilerOptions": {
+        "composite": true,
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "incremental": true,
+        "noEmitOnError": true,
+        "outDir": "dist",
+        "rootDir": "src"
+    },
+    "extends": "./base.json"
+}

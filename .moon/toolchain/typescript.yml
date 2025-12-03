@@ -1,0 +1,2 @@
+typescript:
+    rootOptionsConfigFileName: tsconfig.base.json

@@ -2,23 +2,24 @@
     "$schema": "https://json.schemastore.org/tsconfig",
     "display": "Base Configuration",
     "compilerOptions": {
-        "skipLibCheck": true,
-        "noEmit": true,
+        "allowImportingTsExtensions": true,
+        "allowJs": true,
         "allowSyntheticDefaultImports": true,
         "forceConsistentCasingInFileNames": true,
         "isolatedModules": true,
-        "verbatimModuleSyntax": true,
         "lib": ["ESNext"],
-        "target": "ESNext",
-        "allowImportingTsExtensions": true,
         "module": "ESNext",
+        "moduleDetection": "force",
         "moduleResolution": "bundler",
-        "noUncheckedSideEffectImports": true,
-        "resolveJsonModule": true,
+        "noEmit": true,
         "noFallthroughCasesInSwitch": true,
+        "noUncheckedSideEffectImports": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
         "strict": true,
-        "allowJs": true
+        "target": "ESNext",
+        "verbatimModuleSyntax": true
     }
 }

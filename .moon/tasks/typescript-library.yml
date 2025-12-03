@@ -1,0 +1,17 @@
+tasks:
+    build:
+        command: bun build.ts
+        deps:
+            - declaration
+        inputs:
+            - src/**/*
+            - build.ts
+        outputs:
+            - dist
+
+    declaration:
+        command: tsc --project tsconfig.build.json
+        inputs:
+            - src/**/*
+        outputs:
+            - dist

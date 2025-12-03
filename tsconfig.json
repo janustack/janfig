@@ -3,7 +3,10 @@
     "files": [],
     "references": [
         {
-            "path": "packages/tsconfig"
+            "path": "packages/config"
+        },
+        {
+            "path": "packages/vite"
         }
     ]
 }

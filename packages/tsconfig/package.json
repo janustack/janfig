@@ -5,6 +5,7 @@
     "version": "0.1.2",
     "files": [
         "base.json",
+        "build.json",
         "next.json",
         "react.json",
         "solid.json"

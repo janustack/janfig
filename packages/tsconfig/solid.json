@@ -1,9 +1,9 @@
 {
-	"extends": "./base.json",
-	"display": "Solid Library",
-	"compilerOptions": {
-	  "lib": ["DOM", "DOM.Iterable", "ESNext"],
-	  "jsx": "preserve",
-		"jsxImportSource": "solid-js"
-	}
+    "display": "Solid Library",
+    "compilerOptions": {
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "jsx": "preserve",
+        "jsxImportSource": "solid-js"
+    },
+    "extends": "./base.json"
 }
