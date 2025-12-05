@@ -1,8 +1,8 @@
 {
-	"extends": "./base.json",
-	"display": "React Library",
-	"compilerOptions": {
-	  "lib": ["DOM", "DOM.Iterable", "ESNext"],
-		"jsx": "react-jsx"
-	}
+    "extends": "./base.json",
+    "display": "React App",
+    "compilerOptions": {
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "jsx": "react-jsx"
+    }
 }

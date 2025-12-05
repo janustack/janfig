@@ -5,9 +5,7 @@
         "declaration": true,
         "emitDeclarationOnly": true,
         "incremental": true,
-        "noEmitOnError": true,
-        "outDir": "dist",
-        "rootDir": "src"
+        "noEmitOnError": true
     },
     "extends": "./base.json"
 }

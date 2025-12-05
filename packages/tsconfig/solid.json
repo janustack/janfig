@@ -1,5 +1,6 @@
 {
-    "display": "Solid Library",
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Solid App",
     "compilerOptions": {
         "lib": ["DOM", "DOM.Iterable", "ESNext"],
         "jsx": "preserve",

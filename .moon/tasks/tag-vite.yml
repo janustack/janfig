@@ -1,0 +1,36 @@
+fileGroups:
+    vite:
+        - public/**/*
+        - src/**/*
+        - vite.config.*
+
+tasks:
+    build:
+        command: vite build
+        description: Builds the application
+        inputs:
+            - "@group(vite)"
+        outputs:
+            - .content-collections
+            - .output
+
+    dev:
+        command: bunx --bun vite
+        description: Start the development server
+        preset: server
+        outputs:
+            - .content-collections
+
+    preview:
+        command: vite preview
+        description: Serve the production build of the application
+        deps:
+            - build
+        preset: server
+
+    start:
+        command: bun .output/server/index.mjs
+        description: Start the production server
+        deps:
+            - build
+        preset: server
