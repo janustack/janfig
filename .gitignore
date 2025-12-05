@@ -1,1 +1,3 @@
-.moon/cache
+.moon/cache/
+node_modules/
+*.tsbuildinfo
