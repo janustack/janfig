@@ -1,2 +1,6 @@
 language: typescript
 layer: library
+
+project:
+  name: config
+  description: Configuration management library

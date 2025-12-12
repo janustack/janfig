@@ -1,2 +1,6 @@
 language: typescript
 layer: library
+
+project:
+  name: vite
+  description: Vite config for Janustack projects

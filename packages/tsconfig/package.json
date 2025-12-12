@@ -1,27 +1,27 @@
 {
-    "name": "@janfig/tsconfig",
-    "author": "Andrew Christian Young (https://andrewcwhy.me/)",
-    "description": "Shared TypeScript configurations for modern ESM-based projects.",
-    "version": "0.1.4",
-    "files": [
-        "base.json",
-        "build.json",
-        "react.json",
-        "solid.json"
-    ],
-    "homepage": "https://github.com/janustack/janfig#readme",
-    "keywords": [
-        "esm",
-        "janfig",
-        "janustack",
-        "react",
-        "solid",
-        "tsconfig",
-        "typescript"
-    ],
-    "license": "MIT",
-    "publishConfig": {
-        "access": "public"
-    },
-    "repository": "https://github.com/janustack/packages/janfig"
+	"name": "@janfig/tsconfig",
+	"author": "Andrew Christian Young (https://andrewcwhy.me/)",
+	"description": "Shared TypeScript configurations for modern ESM-based projects.",
+	"version": "0.1.4",
+	"files": [
+		"base.json",
+		"build.json",
+		"react.json",
+		"solid.json"
+	],
+	"homepage": "https://github.com/janustack/janfig#readme",
+	"keywords": [
+		"esm",
+		"janfig",
+		"janustack",
+		"react",
+		"solid",
+		"tsconfig",
+		"typescript"
+	],
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": "https://github.com/janustack/packages/janfig"
 }

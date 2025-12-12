@@ -1,12 +1,12 @@
 {
-    "extends": "./tsconfig.options.json",
-    "files": [],
-    "references": [
-        {
-            "path": "packages/config"
-        },
-        {
-            "path": "packages/vite"
-        }
-    ]
+	"extends": "./tsconfig.options.json",
+	"files": [],
+	"references": [
+		{
+			"path": "packages/config"
+		},
+		{
+			"path": "packages/vite"
+		}
+	]
 }

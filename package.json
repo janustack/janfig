@@ -14,7 +14,17 @@
     "trustedDependencies": [
         "@moonrepo/cli"
     ],
-    "workspaces": [
-        "packages/*"
-    ]
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ],
+        "catalog": {
+            "vite": "npm:rolldown-vite@^7.2.9"
+        },
+        "catalogs": {
+            "plugins": {
+                "vite-tsconfig-paths": "^5.1.4"
+            }
+        }
+    }
 }

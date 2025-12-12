@@ -1,14 +1,28 @@
 {
-    "name": "@janfig/vite",
     "author": "Andrew Christian Young (https://andrewcwhy.me/)",
     "description": "",
-    "version": "0.0.0",
-    "files": [],
+    "dependencies": {
+        "vite-tsconfig-paths": "catalog:plugins"
+    },
+    "devDependencies": {
+        "vite": "catalog:"
+    },
+    "files": [
+        "dist"
+    ],
     "homepage": "https://github.com/janustack/janfig#readme",
-    "keywords": [],
+    "keywords": [
+        "janustack",
+        "janfig",
+        "vite",
+        "configuration"
+    ],
     "license": "MIT",
+    "name": "@janfig/vite",
     "publishConfig": {
         "access": "public"
     },
-    "repository": "https://github.com/janustack/packages/vite"
+    "repository": "https://github.com/janustack/packages/vite",
+    "type": "module",
+    "version": "0.0.0"
 }

@@ -1,14 +1,14 @@
 {
-    "compilerOptions": {
-        "paths": {
-            "@janustack/glob": ["./src/main.ts"]
-        }
-    },
-    "extends": "../../tsconfig.options.json",
-    "include": ["examples/**/*", "src/**/*", "tests/**/*"],
-    "references": [
-        {
-            "path": "./tsconfig.build.json"
-        }
-    ]
+	"compilerOptions": {
+		"paths": {
+			"@janfig/config": ["./src/main.ts"]
+		}
+	},
+	"extends": "../../tsconfig.base.json",
+	"include": ["src/**/*"],
+	"references": [
+		{
+			"path": "./tsconfig.build.json"
+		}
+	]
 }

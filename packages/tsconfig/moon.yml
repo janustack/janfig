@@ -1,2 +1,6 @@
 language: json
 layer: library
+
+project:
+  name: tsconfig
+  description: TypeScript configuration files for various environments

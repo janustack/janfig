@@ -1,10 +1,10 @@
 {
-    "$schema": "https://json.schemastore.org/tsconfig",
-    "display": "Solid App",
-    "compilerOptions": {
-        "lib": ["DOM", "DOM.Iterable", "ESNext"],
-        "jsx": "preserve",
-        "jsxImportSource": "solid-js"
-    },
-    "extends": "./base.json"
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Solid App",
+	"compilerOptions": {
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js"
+	},
+	"extends": "./base.json"
 }
