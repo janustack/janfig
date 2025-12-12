@@ -1,3 +1,6 @@
+# https://moonrepo.dev/docs/config/tasks
+$schema: https://moonrepo.dev/schemas/tasks.json
+
 tasks:
     build:
         command: bun build.ts
