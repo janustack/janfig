@@ -1,39 +1,32 @@
-# https://moonrepo.dev/docs/config/tasks
+# https://moonrepo.dev/docs/config/project
 $schema: https://moonrepo.dev/schemas/tasks.json
 
+inheritedBy:
+  language: typescript
+  layer: application
+  tag: vite
+
 fileGroups:
-    vite:
-        - public/**/*
-        - src/**/*
-        - vite.config.*
+  vite:
+    - public/**/*
+    - src/**/*
+    - vite.config.ts
 
 tasks:
-    build:
-        command: vite build
-        description: Builds the application
-        inputs:
-            - "@group(vite)"
-        outputs:
-            - .content-collections
-            - .output
+  build:
+    command: bunx --bun vite build
+    description: Build the application for production using Vite
+    inputs:
+      - "@group(vite)"
 
-    dev:
-        command: bunx --bun vite
-        description: Start the development server
-        preset: server
-        outputs:
-            - .content-collections
+  dev:
+    command: bunx --bun vite
+    description: Start the Vite development server
+    preset: server
 
-    preview:
-        command: vite preview
-        description: Serve the production build of the application
-        deps:
-            - build
-        preset: server
-
-    start:
-        command: bun .output/server/index.mjs
-        description: Start the production server
-        deps:
-            - build
-        preset: server
+  preview:
+    command: bunx --bun vite preview
+    description: Serve the production build of the application
+    deps:
+      - build
+    preset: server

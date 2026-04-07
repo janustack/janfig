@@ -1,3 +1,1 @@
-extends:
-    - https://raw.githubusercontent.com/janustack/janfig/refs/heads/main/.moon/tasks/bun-library.yml
-    - https://raw.githubusercontent.com/janustack/janfig/refs/heads/main/.moon/tasks/typescript.yml
+extends: https://raw.githubusercontent.com/janustack/janfig/main/.moon/tasks/typescript.yml

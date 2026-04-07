@@ -5,8 +5,5 @@
 		{
 			"path": "packages/config"
 		},
-		{
-			"path": "packages/vite"
-		}
 	]
 }

@@ -1,18 +1,20 @@
 {
-  "author": "Andrew Christian Young (https://andrewcwhy.me/)",
-  "description": "",
-  "devDependencies": {
-    "vite": "catalog:"
-  },
-  "files": ["dist"],
-  "homepage": "https://github.com/janustack/janfig#readme",
-  "keywords": [],
-  "license": "MIT",
-  "name": "@janfig/config",
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": "https://github.com/janustack/packages/config",
-  "type": "module",
-  "version": "0.0.0"
+	"author": "Andrew Christian Young (https://andrewcwhy.me/)",
+	"description": "",
+	"devDependencies": {
+		"vite": "catalog:"
+	},
+	"files": [
+		"dist"
+	],
+	"homepage": "https://github.com/janustack/janfig#readme",
+	"keywords": [],
+	"license": "MIT",
+	"name": "@janfig/config",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": "https://github.com/janustack/packages/config",
+	"type": "module",
+	"version": "0.0.0"
 }

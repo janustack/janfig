@@ -1,8 +1,9 @@
 # https://moonrepo.dev/docs/config/toolchain
 $schema: https://moonrepo.dev/schemas/toolchain.json
 
-unstable_bun:
-    executeArgs: ["--bun"]
-
-unstable_javascript:
+# Enable JavaScript
+javascript:
     packageManager: bun
+
+# Enable Bun
+bun: {}

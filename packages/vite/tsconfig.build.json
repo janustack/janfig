@@ -1,8 +1,8 @@
 {
-  "compilerOptions": {
-    "outDir": "dist",
-    "rootDir": "src"
-  },
-  "extends": "@janfig/tsconfig/build",
-  "include": ["src/**/*"]
+	"compilerOptions": {
+		"outDir": "dist",
+		"rootDir": "src"
+	},
+	"extends": "@janfig/tsconfig/build",
+	"include": ["src/**/*"]
 }
